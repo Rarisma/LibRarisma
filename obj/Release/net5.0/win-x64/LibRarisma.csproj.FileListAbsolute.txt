@@ -1,0 +1,11 @@
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\bin\Release\net5.0\win-x64\LibRarisma.deps.json
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\bin\Release\net5.0\win-x64\LibRarisma.dll
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\bin\Release\net5.0\win-x64\ref\LibRarisma.dll
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\bin\Release\net5.0\win-x64\LibRarisma.pdb
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\LibRarisma.GeneratedMSBuildEditorConfig.editorconfig
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\LibRarisma.AssemblyInfoInputs.cache
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\LibRarisma.AssemblyInfo.cs
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\LibRarisma.csproj.CoreCompileInputs.cache
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\LibRarisma.dll
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\ref\LibRarisma.dll
+A:\Repositories\LibRarisma\LibRarisma\LibRarisma\obj\Release\net5.0\win-x64\LibRarisma.pdb

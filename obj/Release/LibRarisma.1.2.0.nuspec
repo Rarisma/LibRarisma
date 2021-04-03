@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LibRarisma</id>
+    <version>1.2.0</version>
+    <authors>LibRarisma</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <repository url="https://github.com/Rarisma/LibRarisma" />
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="A:\Repositories\LibRarisma\LibRarisma\LibRarisma\bin\Release\net5.0\win-x64\LibRarisma.dll" target="lib\net5.0\LibRarisma.dll" />
+  </files>
+</package>

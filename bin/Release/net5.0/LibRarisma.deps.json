@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "LibRarisma/1.2.0": {
+        "runtime": {
+          "LibRarisma.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LibRarisma/1.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
