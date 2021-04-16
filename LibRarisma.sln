@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibRarisma", "LibRarisma\LibRarisma.csproj", "{F6FE5847-4AB7-44DE-964E-F48FD02D53A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibRarisma", "LibRarisma\LibRarisma.csproj", "{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18D7C05B-1353-4EA7-B28E-21EC6D32A2A5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +16,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F6FE5847-4AB7-44DE-964E-F48FD02D53A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6FE5847-4AB7-44DE-964E-F48FD02D53A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6FE5847-4AB7-44DE-964E-F48FD02D53A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6FE5847-4AB7-44DE-964E-F48FD02D53A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EDC202FB-31E7-43D5-8732-E12F6734E45A}
+		SolutionGuid = {2645A222-36E3-4CD7-869C-D581122C536B}
 	EndGlobalSection
 EndGlobal
