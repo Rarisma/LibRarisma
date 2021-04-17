@@ -16,3 +16,4 @@ LibRarisma aims to make random tasks in C# easier it also attempts to fix some o
 # Coming soon (1.3.1)
 - Clean empty elements in list
 - ini file reader (Similar to clean empty lists and removes lines that start with a #)
+- Get names in directory
