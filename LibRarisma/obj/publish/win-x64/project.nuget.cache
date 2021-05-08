@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DOQCco/CIYZOOMGh1AEFEt6E8NR8uPQ3lKWsP+RqjzIFQyadsKCj81MR2r7zqFQ6BTB7oVdNCQ2BIu1LMkLwWA==",
+  "dgSpecHash": "Dtv3jKQz4T8EcDGnp5dgzLj5nRFfEBI0kqYXRewxJCgOd4R7hqCa52inoNuRZfBedcPHhupWw/Z4MaEpfwtlcQ==",
   "success": true,
-  "projectFilePath": "A:\\Repositories\\LibRarisma\\LibRarisma\\LibRarisma\\LibRarisma.csproj",
+  "projectFilePath": "A:\\Repositories\\LibRarisma\\LibRarisma\\LibRarisma.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Rarisma\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Rarisma\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",

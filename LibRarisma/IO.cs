@@ -10,17 +10,45 @@ namespace LibRarisma
 {
     public class IO //IO handles functions that are releated to file operations or hardware, if this becomes too large it will split to Hardware for the hardware functions
     {
-        public static string DownloadFile(string URL, string Directory, string Filename)
+        public static void RecreateDirectory(string DirectoryPath)
+        {
+            System.IO.Directory.CreateDirectory(DirectoryPath);
+            System.IO.Directory.Delete(DirectoryPath, true);
+            System.IO.Directory.CreateDirectory(DirectoryPath);
+        }
+
+
+        public static string DownloadFile(string URL, string Directory, string Filename, bool Extract = false)
         {
             try // This will download the resources.zip
             {
+                System.IO.Directory.CreateDirectory(Directory);
+                using var client = new System.Net.WebClient();
+                client.DownloadFile(URL, Directory + "//" + Filename);
+            }
+            catch { return "Error\nFailed to download file.\nAre you connected to the internet?"; } //This should only happen if the user cannot access github
+
+            if (Extract == true) { System.IO.Compression.ZipFile.ExtractToDirectory(Directory + "//" + Filename, Directory); }
+
+
+            return "Success!";
+        }
+
+        public static string AsyncDownloadFile(string URL, string Directory, string Filename, bool Extract = false)
+        {
+            try // This will download the resources.zip
+            {
+                System.IO.Directory.CreateDirectory(Directory);
                 using var client = new System.Net.WebClient();
                 client.DownloadFileTaskAsync(URL, Directory + "//" + Filename);
             }
             catch { return "Error\nFailed to download file.\nAre you connected to the internet?"; } //This should only happen if the user cannot access github
 
+            if (Extract == true) { System.IO.Compression.ZipFile.ExtractToDirectory(Directory + "//" + Filename, Directory); }
+
             return "Success!";
         }
+
 
         //Defealts to microsoft, if by chance it falls and doesnt exist and LibRarisma is still maintained then I will update it to somthing like DuckDuckGo
         public static bool Connectivity_Check(string WebsiteToCheck = "www.Microsoft.com")
@@ -57,6 +85,34 @@ namespace LibRarisma
             if (ReturnInMB) { return RamInMB ; }
             else { return Convert.ToInt64(RamInMB / 1024); }
         }
+
+
+        public static List<string> ReadINIFile(string PathToFile)
+        {
+            List<string> INI_File = new();
+            INI_File.AddRange(System.IO.File.ReadAllLines(PathToFile));
+            INI_File.CleanList();
+
+            for (int i = 0; i <= INI_File.Count; i++)
+            {
+                if (INI_File[i][0] == Convert.ToChar("#"))
+                {
+                    INI_File.RemoveAt(i);
+                    i = 0; //Resets I to prevent skipping a line
+                }
+            }
+
+            return INI_File;
+        }
+
+        public static string SanitizeString(string Input)
+        {
+            char[] DisallowedSymbols = { '|', ',' , '/' , ':', '*', '|', '?', '<', '>', Convert.ToChar("\\") };
+            string Output = Input;
+            for(int i =0; i <= DisallowedSymbols.Length; i++) { Output = Output.Replace(DisallowedSymbols[i], ' '); i++; }
+            return Output;
+        }
+
 
     }
 }

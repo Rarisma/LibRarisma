@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibRarisma", "LibRarisma\LibRarisma.csproj", "{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18D7C05B-1353-4EA7-B28E-21EC6D32A2A5}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibRarisma", "LibRarisma\LibRarisma.csproj", "{FB6C0F70-E4EB-4E9A-B888-59BB3F548924}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

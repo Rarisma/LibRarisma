@@ -7,7 +7,7 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {},
     ".NETCoreApp,Version=v5.0/win-x64": {
-      "LibRarisma/1.3.0": {
+      "LibRarisma/1.3.2": {
         "dependencies": {
           "System.Management": "5.0.0",
           "runtimepack.Microsoft.NETCore.App.Runtime.win-x64": "5.0.4"
@@ -900,7 +900,7 @@
     }
   },
   "libraries": {
-    "LibRarisma/1.3.0": {
+    "LibRarisma/1.3.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
