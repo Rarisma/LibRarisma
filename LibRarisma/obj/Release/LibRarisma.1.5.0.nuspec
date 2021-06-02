@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>LibRarisma</id>
-    <version>1.3.0</version>
-    <authors>Rarisma</authors>
+    <version>1.5.0</version>
+    <authors>LibRarisma</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Package Description</description>
     <dependencies>
@@ -13,6 +13,6 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="A:\Repositories\LibRarisma\LibRarisma\LibRarisma\bin\Release\net5.0\win-x64\LibRarisma.dll" target="lib\net5.0\LibRarisma.dll" />
+    <file src="A:\Repositories\LibRarisma\LibRarisma\bin\Release\net5.0\LibRarisma.dll" target="lib\net5.0\LibRarisma.dll" />
   </files>
 </package>
