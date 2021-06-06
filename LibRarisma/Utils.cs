@@ -76,5 +76,26 @@ namespace LibRarisma
             foreach (DirectoryInfo subdir in dirs) { DirectoryCopy(subdir.FullName, Path.Combine(destDirName, subdir.Name), copySubDirs); }
         }
 
+        public static string HexToText(string input)
+        {
+            string[] hexValuesSplit = input.Split(' ');
+            string final = "";
+            foreach (string hex in hexValuesSplit)
+            {
+                try
+                {
+                    // Convert the number expressed in base-16 to an integer.
+                    int value = Convert.ToInt32(hex, 16);
+                    // Get the character corresponding to the integral value.
+                    string stringValue = Char.ConvertFromUtf32(value);
+                    char charValue = (char)value;
+                    final += charValue;
+                }
+                catch { }
+
+            }
+            return final;
+        }
+
     }
 }

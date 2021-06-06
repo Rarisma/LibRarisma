@@ -5,7 +5,7 @@
   },
   "projects": {
     "A:\\Repositories\\LibRarisma\\LibRarisma\\LibRarisma.csproj": {
-      "version": "1.5.0",
+      "version": "1.6.3",
       "restore": {
         "projectUniqueName": "A:\\Repositories\\LibRarisma\\LibRarisma\\LibRarisma.csproj",
         "projectName": "LibRarisma",
@@ -28,6 +28,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Rarisma\\Desktop\\LibRarisma": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
