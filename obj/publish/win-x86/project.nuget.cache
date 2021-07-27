@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "oxnn6KCQ0Nisg9Mrq3trXymz2g7AS8n+HXGQfem0UNGUjVKKrfj45AHnDB++0DW8S6NmPZs5SYS1mm6O3CWbJQ==",
+  "success": true,
+  "projectFilePath": "A:\\Repositories\\Rarisma20\\LibRarisma\\LibRarisma.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rarisma\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.7\\microsoft.netcore.app.runtime.win-x86.5.0.7.nupkg.sha512",
+    "C:\\Users\\Rarisma\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.7\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.7.nupkg.sha512",
+    "C:\\Users\\Rarisma\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.7\\microsoft.aspnetcore.app.runtime.win-x86.5.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
