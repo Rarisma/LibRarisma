@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>LibRarisma</id>
+    <version>2.0.2</version>
+    <authors>Rarisma</authors>
+    <description>A small package that aims to make random stuff in c# easier</description>
+    <dependencies>
+      <group targetFramework="net5.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="A:\Repositories\LibRarisma\bin\Release\net5.0\win-x64\LibRarisma.dll" target="lib\net5.0\LibRarisma.dll" />
+  </files>
+</package>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LibRarisma
 {
-    class Gaming
+    public class Gaming
     {
         public static List<string[]> Wii(string path)
         {
@@ -22,6 +22,7 @@ namespace LibRarisma
             for (int i = 1; i <= DolphinList.Count - 1; i++)
             {
                 HexList.Add(DolphinList[i].Substring(0, 6));
+                
                 NameList.Add(DolphinList[i].Substring(9));
                 WADNameList.Add(DolphinList[i].Substring(6));
             }

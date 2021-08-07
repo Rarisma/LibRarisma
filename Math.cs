@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LibRarisma
 {
-    class Math
+    public class Math
     {
         public static Random RandInt = new();
 

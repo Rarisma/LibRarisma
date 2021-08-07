@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibRarisma
 {
-    class Connectivity
+    public class Connectivity
     {
         public static string DownloadFile(string URL, string Directory, string Filename, bool Extract = false)
         {

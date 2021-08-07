@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace LibRarisma
 {
-    class IO
+    public class IO
     {
         /// <summary>
         /// Opens a directory, will default to documents if not found

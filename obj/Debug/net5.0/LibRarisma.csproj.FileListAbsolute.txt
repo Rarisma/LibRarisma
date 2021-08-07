@@ -1,0 +1,12 @@
+A:\Repositories\LibRarisma\bin\Debug\net5.0\LibRarisma.deps.json
+A:\Repositories\LibRarisma\bin\Debug\net5.0\LibRarisma.dll
+A:\Repositories\LibRarisma\bin\Debug\net5.0\ref\LibRarisma.dll
+A:\Repositories\LibRarisma\bin\Debug\net5.0\LibRarisma.pdb
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.csproj.AssemblyReference.cache
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.GeneratedMSBuildEditorConfig.editorconfig
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.AssemblyInfoInputs.cache
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.AssemblyInfo.cs
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.csproj.CoreCompileInputs.cache
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.dll
+A:\Repositories\LibRarisma\obj\Debug\net5.0\ref\LibRarisma.dll
+A:\Repositories\LibRarisma\obj\Debug\net5.0\LibRarisma.pdb
